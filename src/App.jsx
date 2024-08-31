@@ -2,14 +2,13 @@ import FriendList from "./components/FriendList/FriendList";
 import FriendListItem from "./components/FriendListItem/FriendListItem";
 import Profile from "./components/Profile/Profile";
 import TransactionHistory from "./components/TransactionHistory/TransactionHistory";
-import userData from "./components/Profile/UserData.json";
+import userData from "./UserData/userData.json";
+import friends from "./UserData/friends.json";
 import "./App.css";
 
 function App() {
   return (
     <div>
-      <FriendList />
-      <FriendListItem />
       <Profile
         username={userData.username}
         tag={userData.tag}
@@ -17,6 +16,7 @@ function App() {
         avatar={userData.avatar}
         stats={userData.stats}
       />
+      <FriendList friends={friends} />
       <TransactionHistory />
     </div>
   );

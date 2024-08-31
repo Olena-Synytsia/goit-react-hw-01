@@ -1,10 +1,14 @@
 import s from "./FriendListItem.module.css";
 
-const FriendListItem = () => {
+const FriendListItem = ({ avatar, name, isOnline }) => {
   return (
-    <section>
-      <p className={s.title}> Friend List Item</p>
-    </section>
+    <div className={s.item}>
+      <img src={avatar} alt="Avatar" width="48" />
+      <p>{name}</p>
+      <p className={`{s.status} ${isOnline ? "online" : "offline"}`}>
+        {isOnline ? "Online" : "Offline"}
+      </p>
+    </div>
   );
 };
 
