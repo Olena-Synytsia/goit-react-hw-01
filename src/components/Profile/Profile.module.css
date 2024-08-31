@@ -1,3 +1,52 @@
-.title {
+.profile {
+  width: 768px;
+  height: auto;
+}
+.profileEl {
+  width: 500px;
+  height: auto;
+}
+.avatar {
+  width: 200px;
+  height: 200px;
+  border-radius: 4px;
+  object-fit: cover;
+}
+.username {
+  font-size: 32px;
+  font-weight: 700;
+  color: green;
+  line-height: 1.4;
+}
+.tag {
+  font-size: 20px;
+  font-weight: 500;
+  color: teal;
+  line-height: 1.4;
+}
+.location {
+  font-size: 20px;
+  font-weight: 500;
+  color: teal;
+  line-height: 1.4;
+}
+
+.stats {
+  font-size: 20px;
+  font-weight: 500;
+  color: teal;
+  line-height: 1.4;
+  list-style: none;
+}
+.label {
+  font-size: 16px;
+  font-weight: 400;
+  color: greenyellow;
+  line-height: 1.4;
+}
+.value {
+  font-size: 16px;
+  font-weight: 400;
   color: red;
+  line-height: 1.4;
 }
