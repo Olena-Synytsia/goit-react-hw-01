@@ -1,7 +1,13 @@
 .element {
-  color: blue;
+  display: flex;
+  flex-direction: row;
+  gap: 8px;
+  justify-content: space-between;
+  margin: 0 10px 30px 10px;
 }
 
 .item {
-  width: 200px;
+  border: 2px solid black;
+  border-radius: 4px;
+  padding: 10px 10px;
 }
