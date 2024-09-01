@@ -8,6 +8,7 @@
 .profileEl {
   padding-top: 20px;
 }
+
 .avatar {
   width: 200px;
   height: 200px;
@@ -16,6 +17,7 @@
   overflow: hidden;
   background-color: turquoise;
 }
+
 .username {
   font-size: 34px;
   font-weight: 700;
@@ -23,6 +25,7 @@
   line-height: 1.4;
   margin: 10px 0;
 }
+
 .tag {
   font-size: 20px;
   font-weight: 500;
@@ -30,6 +33,7 @@
   line-height: 0.8;
   margin: 8px 0;
 }
+
 .location {
   font-size: 20px;
   font-weight: 500;
@@ -47,20 +51,20 @@
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 0;
-  background-color: rgb(192, 202, 212);
+  background-color: rgb(158, 228, 228);
   border-radius: 8px;
 }
 
 .element {
   display: flex;
   flex-direction: column;
-  border-top: 3px solid gray;
+  border-top: 3px solid black;
   padding: 10px 0;
 }
 
 .stats > .element:nth-child(1),
 .stats > .element:nth-child(2) {
-  border-right: 2px solid gray;
+  border-right: 2px solid black;
 }
 
 .label {
