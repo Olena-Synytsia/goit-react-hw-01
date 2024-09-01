@@ -16,6 +16,8 @@
   object-fit: cover;
   overflow: hidden;
   background-color: turquoise;
+  border: 2px solid teal;
+  box-shadow: 4px 5px 2px 1px rgb(165, 165, 165);
 }
 
 .username {
